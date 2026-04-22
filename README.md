@@ -14,11 +14,7 @@
 
 ---
 
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
+## 🚀 Featured Project
 
 ### [CCR](https://github.com/qbit-glitch/ccr) — Continuous Context Retention
 
@@ -40,28 +36,6 @@ ccr install-global
 [![GitHub Repo stars](https://img.shields.io/github/stars/qbit-glitch/ccr?style=social)](https://github.com/qbit-glitch/ccr/stargazers)
 [![PyPI](https://img.shields.io/pypi/v/ccr-memory?color=3775A9&label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/ccr-memory/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://github.com/qbit-glitch/ccr/blob/main/LICENSE)
-
-</td>
-<td width="50%" valign="top">
-
-### [Unsupervised Panoptic Segmentation](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)
-
-> **NeurIPS 2026 Submission** — First unsupervised panoptic segmentation system using state space models for cross-modal fusion.
-
-MBPS tackles unsupervised panoptic segmentation by bridging semantic and instance branches through a novel Mamba2-based Structured State Space Duality (SSD) fusion mechanism. Operates without any human annotations.
-
-- 🌉 **Adaptive Projection Bridge (APB)** — Fuses heterogeneous semantic + instance features into shared 192-dim space
-- 🎯 **Unified Depth Conditioning (UDCM)** — FiLM-style modulation from monocular ZoeDepth estimates
-- 🔄 **Bidirectional Cross-Modal Scan (BiCMS)** — Mamba2 SSD on interleaved tokens with learned gating
-- 🧠 **Stuff-Things Classifier (STC)** — Automatic discrimination via depth boundary density, cluster compactness, and decomposition frequency
-
-[![JAX](https://img.shields.io/badge/JAX-4285F4?style=flat-square&logo=google&logoColor=white)](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)
-[![NeurIPS](https://img.shields.io/badge/NeurIPS%202026-Under%20Review-orange?style=flat-square)](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)
-
-</td>
-</tr>
-</table>
 
 ---
 
