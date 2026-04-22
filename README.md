@@ -1,16 +1,130 @@
-## Hi there 👋
+<h1 align="center">Hi, I'm <a href="https://github.com/qbit-glitch">qbit-glitch</a> 👋</h1>
 
-<!--
-**qbit-glitch/qbit-glitch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <samp>
+    Building tools that make AI agents remember. <br/>
+    Rust · Python · Systems · Machine Learning · Agent Infrastructure
+  </samp>
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://github.com/qbit-glitch?tab=repositories"><img alt="Repos" src="https://img.shields.io/badge/Repos-40+-blue?style=flat-square&logo=github"></a>
+  <a href="https://pypi.org/user/qbit-glitch/"><img alt="PyPI" src="https://img.shields.io/badge/PyPI-ccr--memory-3775A9?style=flat-square&logo=pypi&logoColor=white"></a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Featured Project
+
+### [CCR](https://github.com/qbit-glitch/ccr) — Continuous Context Retention
+
+> **Persistent memory and self-evolving playbooks for AI agents.**
+
+CCR is an MCP server that gives AI agents what they lack natively: **long-term memory** across sessions. No more starting from scratch every time you open a new chat.
+
+- 🧠 **Git-style versioned memory** (GCC) — branch, merge, and search your project's decision history
+- 📓 **Self-evolving playbooks** (ACE) — strategies that learn from failure and improve over time
+- 🛡️ **Sandboxed Python REPL** (RLM) — isolated execution for iterative analysis
+- 🔌 **Multi-agent** — works with Claude Code, Kimi, Continue.dev, Ollama, OpenAI API
+- ⚡ **Zero LLM calls** — pure logic, zero infrastructure, zero API keys required
+
+```bash
+pip install ccr-memory
+ccr install-global
+```
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/qbit-glitch/ccr?style=social)](https://github.com/qbit-glitch/ccr/stargazers)
+[![PyPI](https://img.shields.io/pypi/v/ccr-memory?color=3775A9&label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/ccr-memory/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://github.com/qbit-glitch/ccr/blob/main/LICENSE)
+
+---
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white">
+  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
+</p>
+
+---
+
+## 📂 Projects
+
+### Agent Infrastructure & Tools
+
+| Project | Language | Description |
+|---------|----------|-------------|
+| **[ccr](https://github.com/qbit-glitch/ccr)** | Python | Persistent memory MCP server for AI agents |
+| **[ruflo](https://github.com/qbit-glitch/ruflo)** *(fork)* | Python | Agent orchestration platform for Claude |
+
+### Systems & Rust
+
+| Project | Language | Description |
+|---------|----------|-------------|
+| **[rust_os](https://github.com/qbit-glitch/rust_os)** | Rust | Operating system experiments in Rust |
+| **[rusty-store](https://github.com/qbit-glitch/rusty-store)** | Rust | A Rust-based key-value store |
+| **[redis-cli-codecrafters](https://github.com/qbit-glitch/redis-cli-codecrafters)** | Shell | Redis CLI implementation challenge |
+| **[simple-calculator-rust](https://github.com/qbit-glitch/simple-calculator-rust)** | Rust | Calculator in Rust |
+
+### Machine Learning & Computer Vision
+
+| Project | Language | Description |
+|---------|----------|-------------|
+| **[wrong_parking_car_detection](https://github.com/qbit-glitch/wrong_parking_car_detection)** | Python | Computer vision-based parking violation detection |
+| **[unsupervised_panoptic_segmentation](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)** | Jupyter | Unsupervised panoptic segmentation research |
+| **[proposed_methodology](https://github.com/qbit-glitch/proposed_methodology)** | Python | ML methodology experiments |
+| **[pytorch_tutorials](https://github.com/qbit-glitch/pytorch_tutorials)** | Jupyter | PyTorch learning notebooks |
+
+### Web & Applications
+
+| Project | Language | Description |
+|---------|----------|-------------|
+| **[oracle-search](https://github.com/qbit-glitch/oracle-search)** | JavaScript | Search interface with oracle integration |
+| **[word-of-day](https://github.com/qbit-glitch/word-of-day)** | JavaScript | Daily word learning app |
+| **[RAG-support-ticket-system](https://github.com/qbit-glitch/RAG-support-ticket-system)** | Jupyter | RAG-based support ticket system |
+
+### Blockchain & Security
+
+| Project | Language | Description |
+|---------|----------|-------------|
+| **[programming_bitcoin](https://github.com/qbit-glitch/programming_bitcoin)** | Jupyter | Bitcoin protocol implementation studies |
+| **[shellclass](https://github.com/qbit-glitch/shellclass)** | Shell | Shell scripting experiments |
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=qbit-glitch&show_icons=true&theme=tokyonight&hide_border=true&count_private=true">
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=qbit-glitch&layout=compact&theme=tokyonight&hide_border=true&langs_count=8">
+</p>
+
+---
+
+## 🌱 Currently Learning
+
+- **Rust systems programming** — OS dev, memory-safe concurrency
+- **Agent infrastructure** — MCP, context compression, multi-agent orchestration
+- **ONNX & edge ML** — Running models without GPU dependency
+
+---
+
+## 📫 Connect
+
+<p align="center">
+  <a href="https://github.com/qbit-glitch"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://pypi.org/user/qbit-glitch/"><img alt="PyPI" src="https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white"></a>
+</p>
+
+---
+
+<p align="center">
+  <samp>
+    <i>"The best time to start a project was yesterday. The second best time is now."</i>
+  </samp>
+</p>
