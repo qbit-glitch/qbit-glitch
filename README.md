@@ -30,7 +30,7 @@ An MCP server that gives AI agents **long-term memory** across sessions. No more
 - 📓 **Self-evolving playbooks** (ACE) — strategies that learn from failure
 - 🛡️ **Sandboxed Python REPL** (RLM) — isolated execution
 - 🔌 **Multi-agent** — Claude Code, Kimi, Continue.dev, Ollama, OpenAI
-- ⚡ **Zero LLM calls** — pure logic, zero infrastructure
+- ⚡ **Zero infrastructure** — runs locally, no cloud services required
 
 ```bash
 pip install ccr-memory
