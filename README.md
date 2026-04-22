@@ -27,10 +27,10 @@
 An MCP server that gives AI agents **long-term memory** across sessions. No more starting from scratch every time you open a new chat.
 
 - 🧠 **Git-style versioned memory** (GCC) — branch, merge, search history
-- 📓 **Self-evolving playbooks** (ACE) — strategies that learn from failure
-- 🛡️ **Sandboxed Python REPL** (RLM) — isolated execution
-- 🔌 **Multi-agent** — Claude Code, Kimi, Continue.dev, Ollama, OpenAI
-- ⚡ **Zero infrastructure** — runs locally, no cloud services required
+- 📓 **Playbooks** (ACE) — structured strategy bullets with optional LLM-powered evolution
+- 🛡️ **Sandboxed Python REPL** (RLM) — AST validation + restricted builtins
+- 🔌 **Multi-agent** — full hooks for Claude Code & Kimi; MCP for Continue.dev; SDK wrappers for Ollama & OpenAI
+- ⚡ **No external database** — SQLite + flat files, runs entirely local
 
 ```bash
 pip install ccr-memory
