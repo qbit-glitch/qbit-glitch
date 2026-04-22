@@ -14,19 +14,23 @@
 
 ---
 
-## 🚀 Featured Project
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### [CCR](https://github.com/qbit-glitch/ccr) — Continuous Context Retention
 
 > **Persistent memory and self-evolving playbooks for AI agents.**
 
-CCR is an MCP server that gives AI agents what they lack natively: **long-term memory** across sessions. No more starting from scratch every time you open a new chat.
+An MCP server that gives AI agents **long-term memory** across sessions. No more starting from scratch every time you open a new chat.
 
-- 🧠 **Git-style versioned memory** (GCC) — branch, merge, and search your project's decision history
-- 📓 **Self-evolving playbooks** (ACE) — strategies that learn from failure and improve over time
-- 🛡️ **Sandboxed Python REPL** (RLM) — isolated execution for iterative analysis
-- 🔌 **Multi-agent** — works with Claude Code, Kimi, Continue.dev, Ollama, OpenAI API
-- ⚡ **Zero LLM calls** — pure logic, zero infrastructure, zero API keys required
+- 🧠 **Git-style versioned memory** (GCC) — branch, merge, search history
+- 📓 **Self-evolving playbooks** (ACE) — strategies that learn from failure
+- 🛡️ **Sandboxed Python REPL** (RLM) — isolated execution
+- 🔌 **Multi-agent** — Claude Code, Kimi, Continue.dev, Ollama, OpenAI
+- ⚡ **Zero LLM calls** — pure logic, zero infrastructure
 
 ```bash
 pip install ccr-memory
@@ -36,6 +40,28 @@ ccr install-global
 [![GitHub Repo stars](https://img.shields.io/github/stars/qbit-glitch/ccr?style=social)](https://github.com/qbit-glitch/ccr/stargazers)
 [![PyPI](https://img.shields.io/pypi/v/ccr-memory?color=3775A9&label=PyPI&logo=pypi&logoColor=white)](https://pypi.org/project/ccr-memory/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://github.com/qbit-glitch/ccr/blob/main/LICENSE)
+
+</td>
+<td width="50%" valign="top">
+
+### [Unsupervised Panoptic Segmentation](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)
+
+> **Pixel-level scene understanding without human labels.**
+
+Research on unsupervised panoptic segmentation — jointly segmenting "things" (countable objects) and "stuff" (amorphous regions) from unlabeled images using deep clustering and representation learning.
+
+- 🔬 **Deep clustering** on visual features
+- 🖼️ **Joint thing + stuff segmentation** from unlabeled data
+- 📊 **Jupyter-based experiments** with PyTorch
+- 🏷️ **Zero annotation cost** — no manual labeling required
+
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)
+
+</td>
+</tr>
+</table>
 
 ---
 
