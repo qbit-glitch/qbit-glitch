@@ -46,18 +46,18 @@ ccr install-global
 
 ### [Unsupervised Panoptic Segmentation](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)
 
-> **Pixel-level scene understanding without human labels.**
+> **NeurIPS 2026 Submission** — First unsupervised panoptic segmentation system using state space models for cross-modal fusion.
 
-Research on unsupervised panoptic segmentation — jointly segmenting "things" (countable objects) and "stuff" (amorphous regions) from unlabeled images using deep clustering and representation learning.
+MBPS tackles unsupervised panoptic segmentation by bridging semantic and instance branches through a novel Mamba2-based Structured State Space Duality (SSD) fusion mechanism. Operates without any human annotations.
 
-- 🔬 **Deep clustering** on visual features
-- 🖼️ **Joint thing + stuff segmentation** from unlabeled data
-- 📊 **Jupyter-based experiments** with PyTorch
-- 🏷️ **Zero annotation cost** — no manual labeling required
+- 🌉 **Adaptive Projection Bridge (APB)** — Fuses heterogeneous semantic + instance features into shared 192-dim space
+- 🎯 **Unified Depth Conditioning (UDCM)** — FiLM-style modulation from monocular ZoeDepth estimates
+- 🔄 **Bidirectional Cross-Modal Scan (BiCMS)** — Mamba2 SSD on interleaved tokens with learned gating
+- 🧠 **Stuff-Things Classifier (STC)** — Automatic discrimination via depth boundary density, cluster compactness, and decomposition frequency
 
-[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)
+[![JAX](https://img.shields.io/badge/JAX-4285F4?style=flat-square&logo=google&logoColor=white)](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)
+[![NeurIPS](https://img.shields.io/badge/NeurIPS%202026-Under%20Review-orange?style=flat-square)](https://github.com/qbit-glitch/unsupervised_panoptic_segmentation)
 
 </td>
 </tr>
